@@ -6,22 +6,6 @@ name: mkosi
 
 on:
   push:
-    branches:
-      - main
-      - v[0-9]+-stable
-    paths:
-      - "**"
-      - "!README*"
-      - "!LICENSE*"
-      - "!LICENSES/**"
-      - "!TODO"
-      - "!docs/**"
-      - "!man/**"
-      - "!catalog/**"
-      - "!shell-completion/**"
-      - "!po/**"
-      - "!.**"
-      - ".github/**"
 
   pull_request:
     branches:
